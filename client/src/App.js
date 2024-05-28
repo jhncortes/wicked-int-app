@@ -18,6 +18,7 @@ function App() {
   return (
     <div className="App">
       <h1> {testMessage.message} </h1>
+      <p> Testing commit and push </p>
     </div>
   );
 }
