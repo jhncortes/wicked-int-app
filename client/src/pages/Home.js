@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './Home.css'; // Import the CSS file specific to Home page
+import ChatbotComponent from "../components/ChatbotComponent";
 
 const Home = () => {
     const [isPlaying, setIsPlaying] = useState(false);
@@ -11,6 +12,7 @@ const Home = () => {
 
     return (
         <main>
+            <ChatbotComponent/>
             <section className="hero">
                 <div className="hero-content">
                     <img src="/tour-guide.png" alt="Tour Guide" className="hero-img" />

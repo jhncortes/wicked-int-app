@@ -10,17 +10,6 @@ import About from "./pages/About";
 import './styles.css';  // General styles for the application
 
 function App() {
-
-  // // ----- Testing a GET request -----
-  // // Just renders a test message in real-time 
-  // const [testMessage, setTestMessage] = useState('');
-  // // Renders anything from /test to home 
-  // useEffect(() => {
-  //   fetch("/test")
-  //   .then(res => res.json())
-  //   .then(data => {setTestMessage(data)})
-  // })
-
   return (
     <Router>
       <Navbar />
