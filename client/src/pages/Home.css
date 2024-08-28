@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+.hero {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-img {
+    max-width: 100px;
+}
+
+.hero h1 {
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.learn-more-btn {
+    background-color: #ff7f32;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.video-section {
+    background-color: #f3e7ff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.video-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.video-thumbnail {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ff7f32;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.info-section {
+    max-width: 800px;
+    text-align: center;
+    padding: 50px 20px;
+    margin: 0 auto;
+}
+
+.info-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.info-section p {
+    font-size: 18px;
+    line-height: 1.5;
+}

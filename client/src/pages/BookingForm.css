@@ -1,0 +1,57 @@
+.booking-form-container {
+    max-width: 600px; /* Set a max width for the form */
+    margin: 40px auto; /* Add margin above and below the form (40px) and center it */
+    padding: 20px; /* Add padding */
+    border: 1px solid #ccc; /* Border around the form */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h2 {
+    text-align: center; /* Center the heading */
+    color: #4c1482; /* Match the brand color */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form fields */
+}
+
+label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 5px; /* Space below labels */
+    font-weight: bold; /* Bold labels */
+    color: #333; /* Dark text color */
+}
+
+input,
+textarea {
+    width: 100%; /* Full width input */
+    padding: 10px; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Border around inputs */
+    border-radius: 4px; /* Rounded corners for inputs */
+    font-size: 16px; /* Larger font size */
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+input:focus,
+textarea:focus {
+    border-color: #4c1482; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+.submit-button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding inside button */
+    background-color: #4c1482; /* Button color */
+    color: #fff; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners for button */
+    font-size: 18px; /* Larger font size */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.submit-button:hover {
+    background-color: #6a1b9a; /* Darker shade on hover */
+}

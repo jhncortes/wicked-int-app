@@ -1,0 +1,64 @@
+.about-container {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center all items horizontally */
+    max-width: 1200px; /* Set a max width for the container */
+    margin: 40px auto; /* Center the container with space above and below */
+    padding: 20px; /* Add padding */
+}
+
+.about-heading {
+    text-align: center; /* Center the heading */
+    color: #4c1482; /* Match the brand color */
+    margin-bottom: 30px; /* Space below the heading */
+    font-size: 2em; /* Increase the font size */
+    font-weight: bold; /* Make it bold */
+}
+
+.profiles-container {
+    display: flex; /* Use flexbox for profiles */
+    flex-wrap: wrap; /* Allow profiles to wrap if necessary */
+    justify-content: space-between; /* Space profiles evenly */
+    width: 100%; /* Full width for the profiles */
+}
+
+.profile {
+    display: flex; /* Use flexbox for each profile */
+    align-items: center; /* Center items vertically */
+    width: 45%; /* Set width for each profile */
+    margin-bottom: 20px; /* Space below each profile */
+    padding: 20px; /* Add padding to profile */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.profile-image {
+    flex: 1; /* Allow the image section to take up one part of the space */
+    margin-right: 20px; /* Space between image and info */
+}
+
+.profile-image img {
+    width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: make image circular */
+}
+
+.profile-info {
+    flex: 2; /* Allow the info section to take up two parts of the space */
+}
+
+h2 {
+    color: #4c1482; /* Match the brand color */
+    margin-bottom: 10px; /* Space below the name */
+}
+
+h3 {
+    color: #333; /* Dark text color for occupation */
+    margin-bottom: 10px; /* Space below the occupation */
+}
+
+p {
+    color: #555; /* Slightly lighter text color for paragraphs */
+    margin: 5px 0; /* Space above and below paragraphs */
+}
