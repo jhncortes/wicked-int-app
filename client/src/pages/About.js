@@ -28,7 +28,7 @@ const individuals = [
         occupation: "Superhero",
         interests: "Science, Strength, Advocacy for Peace",
         skills: "Incredible Strength, Durability, Healing Factor",
-        image: "hulk.jpg", // Example Hulk image
+        image: "./assets/hulk.jpg", // Example Hulk image
     },
 ];
 
