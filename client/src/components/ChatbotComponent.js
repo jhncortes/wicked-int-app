@@ -30,7 +30,11 @@ function ChatbotComponent() {
   // The dialogue between the bot and user
   const flow = {
     start: {
-      message: "Hello! Welcome to Wicked Interactive AR Marketing. How can I be of assistance?"
+      message: "Hello! Welcome to Wicked Interactive AR Marketing. How can I be of assistance?",
+      path: 'ask_user'
+    },
+    ask_user: {
+      message: (params) => `Gladly! Here are our options: ${params.userInput}`
     }
   }
 
